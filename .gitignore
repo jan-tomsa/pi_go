@@ -57,3 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
+###### JT ######
+# Vim temp file
+*.swp
+# Vim backup file
+*.js~

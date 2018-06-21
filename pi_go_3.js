@@ -7,7 +7,7 @@ var board = new five.Board();
 var motorA;
 var motorB;
 var motorC;
-var motorD;
+//var motorD;
 var pin7;
 var pin8;
 
@@ -80,7 +80,7 @@ const DRIVER_GUI_TABLE_INVERTED = ''
 
 app.get('/', function (req, res) {
    res.send('<html><body style="font-size:125%">'
-           +'<p>PiGO prototype 2. It is ' + Date.now() + '</p>'
+           +'<p>PiGO prototype 3. It is ' + Date.now() + '</p>'
 	   +DRIVER_GUI_TABLE
            +'</body></html>');
 })
