@@ -19,6 +19,9 @@ exports.Motor.prototype = {
     forward: function(speed) {
         console.log("Motor forward '"+speed+"'");
     },
+    rev: function(speed) {
+        console.log("Motor reverse '"+speed+"'");
+    },
     stop: function() {
         console.log("Motor stop");
     }
